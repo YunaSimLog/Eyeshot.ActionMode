@@ -34,6 +34,8 @@ namespace Eyeshot.ActionMode
 
             design1.Entities.Add(extrude, Color.Teal);
 
+            design1.ActiveViewport.Labels.Add(new devDept.Eyeshot.Control.Labels.TextOnly(50,100,0, "가나다라", new Font("Tahoma", 20f), Color.Black));
+
             base.OnLoad(e);
         }
 
